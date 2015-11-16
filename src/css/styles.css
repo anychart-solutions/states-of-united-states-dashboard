@@ -60,13 +60,13 @@ html {
     height: 13px;
 }
 .navbar-brand:hover .chart-row .chart-col.green {
-  height: 16px;
+    height: 16px;
 }
 .navbar-brand:hover .chart-row .chart-col.orange {
-  height: 5px;
+    height: 5px;
 }
 .navbar-brand:hover .chart-row .chart-col.red {
-  height: 10px;
+    height: 10px;
 }
 
 #container-pages-overview{
@@ -101,12 +101,11 @@ body {
 .footer-panel {
     z-index: 10;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     font-weight: normal;
     font-size: 12px;
     display: block;
-    /*float: left;*/
 }
 .footer-panel .footer{
     margin: 0 auto;
