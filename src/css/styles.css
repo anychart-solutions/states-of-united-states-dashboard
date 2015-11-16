@@ -165,7 +165,7 @@ h1.title {
     z-index: 20;
 }
 #container-dashboard{
-    height: 1300px;
+    height: 1250px;
     width: 95%;
     margin: 0 auto;
     padding: 20px 0 0 0;
@@ -178,12 +178,10 @@ h1.title {
 }
 @media (min-width: 768px) {
     #container-dashboard{
-        /*min-height: 650px;*/
         min-height: 530px;
-        max-height: 700px;
         height: 100%;
         width: 95%;
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
         padding: 20px 0 0 0;
     }

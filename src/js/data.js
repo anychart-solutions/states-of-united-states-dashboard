@@ -1,4 +1,4 @@
-var data = [
+var states_data = [
     {
         name: "Alabama",
         id: "AL",
@@ -658,3 +658,20 @@ var data = [
         house_seats: "1"
     }
 ];
+
+function getData(id) {
+    for (var i = 0; i < states_data.length; i++) {
+        if (states_data[i].id == id) return states_data[i]
+    }
+}
+
+function getDataSum(field) {
+    var result = 0;
+    for (var i = 0; i < states_data.length; i++) {
+        result += parseInt(states_data[i][field])
+    }
+    return result
+}
+
+
+
