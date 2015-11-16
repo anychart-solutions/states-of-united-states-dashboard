@@ -7,12 +7,6 @@ var createMapUnionChart = function(){
     map.margin(0);
     map.title().padding(0, 0, 15, 0).hAlign('center').useHtml(true).fontSize(14).fontColor('#212121');
     map.title('US States by the Year of Joining the Union');
-
-    var credits = map.credits();
-    credits.enabled(true);
-    credits.url('//en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States');
-    credits.text('Data source: https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States');
-    credits.logoSrc('//en.wikipedia.org/static/favicon/wikipedia.ico');
     map.geoData(anychart.maps.united_states_of_america);
 
     mapSeries = map.choropleth(dataSet);
@@ -218,7 +212,6 @@ function changeContent(ids) {
         return (seats * 100 / getDataSum('house_seats')).toFixed(2) + '%';
     });
 }
-
 
 // Creates general layout table with two inside layout tables
 function fillInMainTable(flag){
