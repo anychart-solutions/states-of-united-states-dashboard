@@ -220,10 +220,11 @@ function fillInMainTable(flag){
             [mapUnionChart, null, tableSolidCharts],
             [null, null, null],
             [tableChart1, null, tableChart2]
-        ], null);
-        layoutTable.getCol(1).width(30);
+        ], true);
         layoutTable.getRow(0).height('35%');
         layoutTable.getRow(0).maxHeight(320);
+
+        layoutTable.getCol(1).width(30);
         layoutTable.getRow(1).height(15);
         layoutTable.getRow(2).height(null);
     } else {
@@ -232,7 +233,7 @@ function fillInMainTable(flag){
             [null],
             [tableSolidCharts],
             [tableChart]
-        ], null);
+        ], true);
         layoutTable.getRow(0).height(300);
         layoutTable.getRow(0).maxHeight(null);
         layoutTable.getRow(1).height(20);
