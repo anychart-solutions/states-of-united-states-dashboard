@@ -2,7 +2,7 @@ var states_data = [
     {
         name: "Alabama",
         id: "AL",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Alabama.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Alabama.png",
         capital: "Montgomery",
         largest_city: "Birmingham",
         statehood: "December 14, 1819",
@@ -15,7 +15,7 @@ var states_data = [
     {
         name: "Alaska",
         id: "AK",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Alaska.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Alaska.png",
         capital: "Juneau",
         largest_city: "Anchorage",
         statehood: "January 3, 1959",
@@ -28,7 +28,7 @@ var states_data = [
     {
         name: "Arizona",
         id: "AZ",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Arizona.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Arizona.png",
         capital: "Phoenix",
         largest_city: "Phoenix",
         statehood: "February 14, 1912",
@@ -41,7 +41,7 @@ var states_data = [
     {
         name: "Arkansas",
         id: "AR",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Arkansas.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Arkansas.png",
         capital: "Little Rock",
         largest_city: "Little Rock",
         statehood: "June 15, 1836",
@@ -54,7 +54,7 @@ var states_data = [
     {
         name: "California",
         id: "CA",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_California.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_California.png",
         capital: "Sacramento",
         largest_city: "Los Angeles",
         statehood: "September 9, 1850",
@@ -67,7 +67,7 @@ var states_data = [
     {
         name: "Colorado",
         id: "CO",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Colorado.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Colorado.png",
         capital: "Denver",
         largest_city: "Denver",
         statehood: "August 1, 1876",
@@ -80,7 +80,7 @@ var states_data = [
     {
         name: "Connecticut",
         id: "CT",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Connecticut.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Connecticut.png",
         capital: "Hartford",
         largest_city: "Bridgeport",
         statehood: "January 9, 1788",
@@ -94,7 +94,7 @@ var states_data = [
     {
         name: "Delaware",
         id: "DE",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Delaware.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Delaware.png",
         capital: "Dover",
         largest_city: "Wilmington",
         statehood: "December 7, 1787",
@@ -108,7 +108,7 @@ var states_data = [
     {
         name: "Florida",
         id: "FL",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Florida.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Florida.png",
         capital: "Tallahassee",
         largest_city: "Jacksonville",
         statehood: "March 3, 1845",
@@ -121,7 +121,7 @@ var states_data = [
     {
         name: "Georgia",
         id: "GA",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Georgia.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Georgia.png",
         capital: "Atlanta",
         largest_city: "Atlanta",
         statehood: "January 2, 1788",
@@ -134,7 +134,7 @@ var states_data = [
     {
         name: "Hawaii",
         id: "HI",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Hawaii.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Hawaii.png",
         capital: "Honolulu",
         largest_city: "Honolulu",
         statehood: "August 21, 1959",
@@ -147,7 +147,7 @@ var states_data = [
     {
         name: "Idaho",
         id: "ID",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Idaho.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Idaho.png",
         capital: "Boise",
         largest_city: "Boise",
         statehood: "July 3, 1890",
@@ -160,7 +160,7 @@ var states_data = [
     {
         name: "Illinois",
         id: "IL",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Illinois.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Illinois.png",
         capital: "Springfield",
         largest_city: "Chicago",
         statehood: "December 3, 1818",
@@ -173,7 +173,7 @@ var states_data = [
     {
         name: "Indiana",
         id: "IN",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Indiana.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Indiana.png",
         capital: "Indianapolis",
         largest_city: "Indianapolis",
         statehood: "December 11, 1816",
@@ -186,7 +186,7 @@ var states_data = [
     {
         name: "Iowa",
         id: "IA",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Iowa.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Iowa.png",
         capital: "Des Moines",
         largest_city: "Des Moines",
         statehood: "December 28, 1846",
@@ -199,7 +199,7 @@ var states_data = [
     {
         name: "Kansas",
         id: "KS",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Kansas.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Kansas.png",
         capital: "Topeka",
         largest_city: "Wichita",
         statehood: "January 29, 1861",
@@ -212,7 +212,7 @@ var states_data = [
     {
         name: "Kentucky",
         id: "KY",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Kentucky.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Kentucky.png",
         capital: "Frankfort",
         largest_city: "Louisville",
         statehood: "June 1, 1792",
@@ -225,7 +225,7 @@ var states_data = [
     {
         name: "Louisiana",
         id: "LA",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Louisiana.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Louisiana.png",
         capital: "Baton Rouge",
         largest_city: "New Orleans",
         statehood: "April 30, 1812",
@@ -238,7 +238,7 @@ var states_data = [
     {
         name: "Maine",
         id: "ME",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Maine.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Maine.png",
         capital: "Augusta",
         largest_city: "Portland",
         statehood: "March 15, 1820",
@@ -251,7 +251,7 @@ var states_data = [
     {
         name: "Maryland",
         id: "MD",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Maryland.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Maryland.png",
         capital: "Annapolis",
         largest_city: "Baltimore",
         statehood: "April 28, 1788",
@@ -265,7 +265,7 @@ var states_data = [
     {
         name: "Massachusetts",
         id: "MA",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Massachusetts.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Massachusetts.png",
         capital: "Boston",
         largest_city: "Boston",
         statehood: "February 6, 1788",
@@ -279,7 +279,7 @@ var states_data = [
     {
         name: "Michigan",
         id: "MI",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Michigan.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Michigan.png",
         capital: "Lansing",
         largest_city: "Detroit",
         statehood: "January 26, 1837",
@@ -292,7 +292,7 @@ var states_data = [
     {
         name: "Minnesota",
         id: "MN",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Minnesota.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Minnesota.png",
         capital: "St. Paul",
         largest_city: "Minneapolis",
         statehood: "May 11, 1858",
@@ -305,7 +305,7 @@ var states_data = [
     {
         name: "Mississippi",
         id: "MS",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Mississippi.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Mississippi.png",
         capital: "Jackson",
         largest_city: "Jackson",
         statehood: "December 10, 1817",
@@ -318,7 +318,7 @@ var states_data = [
     {
         name: "Missouri",
         id: "MO",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Missouri.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Missouri.png",
         capital: "Jefferson City",
         largest_city: "Kansas City",
         statehood: "August 10, 1821",
@@ -331,7 +331,7 @@ var states_data = [
     {
         name: "Montana",
         id: "MT",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Montana.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Montana.png",
         capital: "Helena",
         largest_city: "Billings",
         statehood: "November 8, 1889",
@@ -344,7 +344,7 @@ var states_data = [
     {
         name: "Nebraska",
         id: "NE",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Nebraska.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Nebraska.png",
         capital: "Lincoln",
         largest_city: "Omaha",
         statehood: "March 1, 1867",
@@ -357,7 +357,7 @@ var states_data = [
     {
         name: "Nevada",
         id: "NV",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Nevada.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Nevada.png",
         capital: "Carson City",
         largest_city: "Las Vegas",
         statehood: "October 31, 1864",
@@ -370,7 +370,7 @@ var states_data = [
     {
         name: "New Hampshire",
         id: "NH",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_New_Hampshire.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_New_Hampshire.png",
         capital: "Concord",
         largest_city: "Manchester",
         statehood: "June 21, 1788",
@@ -384,7 +384,7 @@ var states_data = [
     {
         name: "New Jersey",
         id: "NJ",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_New_Jersey.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_New_Jersey.png",
         capital: "Trenton",
         largest_city: "Newark",
         statehood: "December 18, 1787",
@@ -398,7 +398,7 @@ var states_data = [
     {
         name: "New Mexico",
         id: "NM",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_New_Mexico.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_New_Mexico.png",
         capital: "Santa Fe",
         largest_city: "Albuquerque",
         statehood: "January 6, 1912",
@@ -411,7 +411,7 @@ var states_data = [
     {
         name: "New York",
         id: "NY",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_New_York.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_New_York.png",
         capital: "Albany",
         largest_city: "New York",
         statehood: "July 26, 1788",
@@ -424,7 +424,7 @@ var states_data = [
     {
         name: "North Carolina",
         id: "NC",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_North_Carolina.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_North_Carolina.png",
         capital: "Raleigh",
         largest_city: "Charlotte",
         statehood: "November 21, 1789",
@@ -437,7 +437,7 @@ var states_data = [
     {
         name: " North Dakota",
         id: "ND",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_North_Dakota.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_North_Dakota.png",
         capital: "Bismarck",
         largest_city: "Fargo",
         statehood: "November 2, 1889",
@@ -450,7 +450,7 @@ var states_data = [
     {
         name: "Ohio",
         id: "OH",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Ohio.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Ohio.png",
         capital: "Columbus",
         largest_city: "Columbus",
         statehood: "March 1, 1803",
@@ -463,7 +463,7 @@ var states_data = [
     {
         name: "Oklahoma",
         id: "OK",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Oklahoma.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Oklahoma.png",
         capital: "Oklahoma City",
         largest_city: "Oklahoma City",
         statehood: "November 16, 1907",
@@ -476,7 +476,7 @@ var states_data = [
     {
         name: "Oregon",
         id: "OR",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Oregon.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Oregon.png",
         capital: "Salem",
         largest_city: "Portland",
         statehood: "February 14, 1859",
@@ -489,7 +489,7 @@ var states_data = [
     {
         name: "Pennsylvania",
         id: "PA",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Pennsylvania.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Pennsylvania.png",
         capital: "Harrisburg",
         largest_city: "Philadelphia",
         statehood: "December 12, 1787",
@@ -502,7 +502,7 @@ var states_data = [
     {
         name: "Rhode Island",
         id: "RI",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Rhode_Island.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Rhode_Island.png",
         capital: "Providence",
         largest_city: "Providence",
         statehood: "May 29, 1790",
@@ -516,7 +516,7 @@ var states_data = [
     {
         name: "South Carolina",
         id: "SC",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_South_Carolina.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_South_Carolina.png",
         capital: "Columbia",
         largest_city: "Columbia",
         statehood: "May 23, 1788",
@@ -529,7 +529,7 @@ var states_data = [
     {
         name: "South Dakota",
         id: "SD",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_South_Dakota.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_South_Dakota.png",
         capital: "Pierre",
         largest_city: "Sioux Falls",
         statehood: "November 2, 1889",
@@ -542,7 +542,7 @@ var states_data = [
     {
         name: "Tennessee",
         id: "TN",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Tennessee.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Tennessee.png",
         capital: "Nashville",
         largest_city: "Memphis",
         statehood: "June 1, 1796",
@@ -555,7 +555,7 @@ var states_data = [
     {
         name: "Texas",
         id: "TX",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Texas.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Texas.png",
         capital: "Austin",
         largest_city: "Houston",
         statehood: "December 29, 1845",
@@ -568,7 +568,7 @@ var states_data = [
     {
         name: "Utah",
         id: "UT",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Utah.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Utah.png",
         capital: "Salt Lake City",
         largest_city: "Salt Lake City",
         statehood: "January 4, 1896",
@@ -581,7 +581,7 @@ var states_data = [
     {
         name: "Vermont",
         id: "VT",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Vermont.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Vermont.png",
         capital: "Montpelier",
         largest_city: "Burlington",
         statehood: "March 4, 1791",
@@ -595,7 +595,7 @@ var states_data = [
     {
         name: "Virginia",
         id: "VA",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Virginia.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Virginia.png",
         capital: "Richmond",
         largest_city: "Virginia Beach",
         statehood: "June 25, 1788",
@@ -608,7 +608,7 @@ var states_data = [
     {
         name: "Washington",
         id: "WA",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Washington.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Washington.png",
         capital: "Olympia",
         largest_city: "Seattle",
         statehood: "November 11, 1889",
@@ -621,7 +621,7 @@ var states_data = [
     {
         name: "West Virginia",
         id: "WV",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_West_Virginia.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_West_Virginia.png",
         capital: "Charleston",
         largest_city: "Charleston",
         statehood: "June 20, 1863",
@@ -634,7 +634,7 @@ var states_data = [
     {
         name: "Wisconsin",
         id: "WI",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Wisconsin.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Wisconsin.png",
         capital: "Madison",
         largest_city: "Milwaukee",
         statehood: "May 29, 1848",
@@ -647,7 +647,7 @@ var states_data = [
     {
         name: "Wyoming",
         id: "WY",
-        flag: "http://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Wyoming.png",
+        flag: "https://static.anychart.com/images/maps_samples/States_of_United_States_Dashboard_with_MultiSelect/Flag_of_Wyoming.png",
         capital: "Cheyenne",
         largest_city: "Cheyenne",
         statehood: "July 10, 1890",

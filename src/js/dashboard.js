@@ -13,13 +13,13 @@ var createMapUnionChart = function(){
     mapSeries.geoIdField('postal');
     mapSeries.labels(null);
 
-    mapSeries.tooltip().textWrap('byLetter').useHtml(true);
+    mapSeries.tooltip().useHtml(true);
     mapSeries.tooltip().title().useHtml(true);
-    mapSeries.tooltip().titleFormatter(function() {
+    mapSeries.tooltip().titleFormat(function() {
         var data = getData(this.id);
         return this.name + '<span style="font-size: 10px"> (since ' + data['statehood'] + ')</span>';
     });
-    mapSeries.tooltip().textFormatter(function() {
+    mapSeries.tooltip().format(function() {
         var data = getData(this.id);
         return '<span style="font-size: 12px; color: #cfd8dc">Capital: </span>' + data['capital'] + '<br/>' +
             '<span style="font-size: 12px; color: #cfd8dc">Largest City: </span>' + data['largest_city'];
@@ -35,9 +35,9 @@ var createMapUnionChart = function(){
         {greater: 1900}
     ]);
     scale.colors(['#81d4fa', '#4fc3f7', '#29b6f6', '#039be5', '#0288d1', '#0277bd', '#01579b']);
-    mapSeries.hoverFill('#fff9c4');
-    mapSeries.selectFill('#ffa000');
-    mapSeries.selectStroke(anychart.color.darken('#ffa000'));
+    mapSeries.hovered().fill('#fff9c4');
+    mapSeries.selected().fill('#ffa000');
+    mapSeries.selected().stroke(anychart.color.darken('#ffa000'));
     mapSeries.colorScale(scale);
     mapSeries.stroke(function() {
         this.iterator.select(this.index);
@@ -51,7 +51,7 @@ var createMapUnionChart = function(){
     colorRange.ticks().stroke('3 #ffffff').position('center').length(5).enabled(true).zIndex(10000);
     colorRange.marker().size(5);
     colorRange.padding(0).colorLineSize(5);
-    colorRange.labels().fontSize(11).padding([3,0,0,0]).textFormatter(function() {
+    colorRange.labels().fontSize(11).padding([3,0,0,0]).format(function() {
         var range = this.colorRange;
         var name;
         if (isFinite(range.start + range.end)) {
@@ -77,7 +77,7 @@ var createMapUnionChart = function(){
 };
 
 var createTableChart = function(index, n){
-    var table = anychart.ui.table();
+    var table = anychart.standalones.table();
     table.cellBorder(null);
     table
         .cellPadding(-4)
@@ -86,10 +86,10 @@ var createTableChart = function(index, n){
     var contents = [
         [null, 'Name', 'Capital', 'Largest City', 'Since', 'Population', 'Water\nArea', 'Seats']];
     for (var i = index; i < n; i++) {
-        var label = anychart.ui.label();
+        var label = anychart.standalones.label();
         label.width('100%').height('100%').text('').background().enabled(true).fill({
             src: states_data[i]['flag'],
-            mode: acgraph.vector.ImageFillMode.FIT
+            mode: "fit"
         });
         contents.push([
             label,
@@ -116,7 +116,7 @@ var createTableChart = function(index, n){
 };
 
 function solidChart(value) {
-    var gauge = anychart.circularGauge();
+    var gauge = anychart.gauges.circular();
     gauge.data([value, 100]);
     gauge.padding(20);
     gauge.margin(0);
@@ -149,7 +149,7 @@ function solidChart(value) {
 }
 
 function getTableSolidCharts() {
-    var table = anychart.ui.table(2, 3);
+    var table = anychart.standalones.table(2, 3);
     table.cellBorder(null).cellPadding(-4);
     table.getRow(0).height(20);
     table.getRow(1).height(19);
@@ -198,17 +198,17 @@ function changeContent(ids) {
     }
     populationChart.data([(population * 100 / getDataSum('population')).toFixed(2), 100]);
     populationChart.label().text((population * 100 / getDataSum('population')).toFixed(2) + '%');
-    populationChart.tooltip().textFormatter(function(){
+    populationChart.tooltip().format(function(){
         return (population * 100 / getDataSum('population')).toFixed(2) + '%';
     });
     areaChart.data([(area * 100 / getDataSum('area')).toFixed(2), 100]);
     areaChart.label().text((area * 100 / getDataSum('area')).toFixed(2) + '%');
-    areaChart.tooltip().textFormatter(function(){
+    areaChart.tooltip().format(function(){
         return (area * 100 / getDataSum('area')).toFixed(2) + '%';
     });
     houseSeatsChart.data([(seats * 100 / getDataSum('house_seats')).toFixed(2), 100]);
     houseSeatsChart.label().text((seats * 100 / getDataSum('house_seats')).toFixed(2) + '%');
-    houseSeatsChart.tooltip().textFormatter(function(){
+    houseSeatsChart.tooltip().format(function(){
         return (seats * 100 / getDataSum('house_seats')).toFixed(2) + '%';
     });
 }
@@ -260,7 +260,7 @@ anychart.onDocumentReady(function() {
     tableSolidCharts = getTableSolidCharts();
 
     // Creating table for dashboard layout
-    layoutTable = anychart.ui.table();
+    layoutTable = anychart.standalones.table();
     layoutTable.cellBorder(null);
     layoutTable.container('container-dashboard');
 
