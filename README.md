@@ -14,7 +14,7 @@ This HTML5 dashboard depicts data from the article "List of states and territori
 
 ## License
 AnyChart States of United States Dashboard solution includes two parts:
-- Code of the solution that allows to use Javascript library (in this case, AnyChart) to create a dashboard. You can use, edit, modify it, use it with other Javascript libraries without any restrictions. It is released under [Apache 2.0 License](https://github.com/anychart-integrations/states-of-united-states-dashboard/blob/master/LICENSE).
+- Code of the solution that allows to use Javascript library (in this case, AnyChart) to create a dashboard. You can use, edit, modify it, use it with other Javascript libraries without any restrictions. It is released under [Apache 2.0 License](https://github.com/anychart-solutions/states-of-united-states-dashboard/blob/master/LICENSE).
 - AnyChart JavaScript library. It is released under Commercial license. You can test this plugin with the trial version of AnyChart. Our trial version is not limited by time and doesn't contain any feature limitations. Check details [here](https://www.anychart.com/buy/).
 
 If you have any questions regarding licensing - please contact us. <sales@anychart.com>
