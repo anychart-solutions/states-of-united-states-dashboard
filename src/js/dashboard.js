@@ -65,7 +65,6 @@ var createMapUnionChart = function(){
     });
 
     map.listen('pointsSelect', function(e) {
-        console.log('Select');
         var selected = [];
         var selectedPoints = e.seriesStatus[0].points;
         for (var i = 0; i < selectedPoints.length; i++) {
